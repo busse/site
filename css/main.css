@@ -9,15 +9,54 @@ font-family: 'Open Sans', sans-serif;
 body {
 
 	font-family: 'Rokkitt', serif;
-	font-size: 1em;
+	font-size: 1.1em;
 
+
+	margin-top: 5em;
 	margin-left: 20%;
-	margin-right: 40%;
+	margin-right: 30%;
 }
 
 h1 {
 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
+
+}
+
+h2 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+}
+
+h3 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+}
+
+p {
+		line-height: 1.4em;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #FFAE19;
+	text-decoration: none;
+}
+
+.subinfo {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+
+}
+
+.inventory {
+
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 0.9em;
+	font-weight: 700;
+	margin-right: 2em;
 
 }
