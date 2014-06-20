@@ -1,0 +1,23 @@
+/*
+
+font-family: 'Rokkitt', serif;
+
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+body {
+
+	font-family: 'Rokkitt', serif;
+	font-size: 1em;
+
+	margin-left: 20%;
+	margin-right: 40%;
+}
+
+h1 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+
+}
