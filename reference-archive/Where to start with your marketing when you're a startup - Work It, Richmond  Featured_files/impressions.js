@@ -1,0 +1,1 @@
+TNCMS.AdManager.setImpressions('www.timesdispatch.com', {"daily":[],"total":[]});
