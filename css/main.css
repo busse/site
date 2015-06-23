@@ -61,7 +61,7 @@ a:link, a:visited, a:hover, a:active {
 	font-family: 'Inconsolata', sans-serif;
 	font-size: 0.9em;
 	font-weight: 700;
-	/*margin-right: 2em;*/
+	margin-right: 1.5em;
 	float: left;
 	width: 4em;
 }
