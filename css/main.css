@@ -9,10 +9,11 @@ font-family: 'Open Sans', sans-serif;
 body {
 
 	font-family: 'Rokkitt', serif;
-	font-size: 1.1em;
+	/*font-size: 1.1em;*/
+	font-size: 18px;
 
-
-	margin-top: 5em;
+	/*margin-top: 5em;*/
+	margin-top: 5px;
 	margin-left: 20%;
 	margin-right: 30%;
 }
@@ -20,24 +21,31 @@ body {
 h1 {
 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
+	font-size: 24px;
+	font-weight: bold;
 
 }
 
 h2 {
 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2em;
+	/*font-size: 1.2em;*/
+	font-size: 20px;
+	font-weight: bold;
 }
 
 h3 {
 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0.9em;
+	/*font-size: 0.9em;*/
+	font-size: 15px;
+	font-weight: bold;
 }
 
 p {
-		line-height: 1.4em;
+		/*line-height: 1.4em;*/
+		line-height: 23px;
 }
 
 a:link, a:visited, a:hover, a:active {
