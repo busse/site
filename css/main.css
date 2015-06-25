@@ -58,9 +58,20 @@ a:link, a:visited, a:hover, a:active {
 .subinfo {
 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0.9em;
+	font-size: 15px;
 
 }
+
+a.subinfo:link, a.subinfo:visited, a.subinfo:hover, a.subinfo:active {
+	color: #FFAE19;
+	text-decoration: none;
+}
+
+i {
+	color: #333;
+	text-decoration: none;
+}
+
 
 .row {
 	display: flex;
@@ -77,4 +88,71 @@ a:link, a:visited, a:hover, a:active {
 }
 .item {
 	float: left;
+}
+
+/* bootstrap overrides */
+
+/* navbar-brand like h1 */
+.navbar-brand {
+
+	font-family: 'Open Sans', sans-serif;
+	/*font-size: 1.5em;*/
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+.navbar-default .navbar-brand {
+color: #333;
+}
+/* minimal navbar*/
+.navbar {
+	border: 0px;
+}
+.navbar-default {
+background-color: #fff;
+border-color: #fff;
+
+}
+.pagehead {
+padding-right: 0px;
+padding-left: 0px;
+
+}
+
+/* clean hollow button */
+.btn-primary {
+background-color: #fff;
+border-color: #808080;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  /*color: #fff;*/
+  background-color: #808080;
+  border-color: #808080;
+}
+.btn-primary:hover {
+  /*color: #fff;*/
+  background-color: #808080;
+  border-color: #808080;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  /*color: #fff;*/
+  background-color: #808080;
+  border-color: #808080;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  /*color: #fff;*/
+  background-color: #808080;
+  border-color: #808080;
 }
