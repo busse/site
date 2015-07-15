@@ -1,69 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Chris Busse</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css" type="text/css" />
-	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Open+Sans:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
- 
-</head>
- 
-<body>
+---
+layout: default
+---
 
-
-	<div class="container">
-			
-	    <div class="row header">
-	        <div class="col-sm-offset-2 col-sm-8">
-	        		<nav class="navbar navbar-default">
-					  <div class="container-fluid pagehead">
-					    <div class="navbar-header">
-					      <a class="navbar-brand" href="/">Chris Busse</a>
-					    </div>						
-						<!-- Single button -->
-						<div class="btn-group navbar-right">
-						  <button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						    <i class="fa fa-envelope-o fa-lg"></i> <i class="fa fa-user-plus fa-lg"></i> <i class="fa fa-calendar fa-lg"></i> <span class="caret"></span>
-						  </button>
-						  <ul class="dropdown-menu">
-						    <li><a href="mailto:chrisbusse@gmail.com" class="subinfo"><i class="fa fa-envelope-o"></i> chrisbusse@gmail.com</a></li>
-						    <li><a href="http://twitter.com/busse" class="subinfo"><i class="fa fa-twitter"></i> @busse</a></li>
-						    <li><a href="http://linkedin.com/in/chrisbusse" class="subinfo"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-						    
-						    <li class="divider"></li>
-						   <li><a href="http://meetme.so/busse" class="subinfo"><i class="fa fa-calendar-o"></i> Office Hours</a></li>
-						
-						  </ul>
-						</div>
-
-
-					  </div>
-					</nav>
 				
-	        	<!--
-				<p class="subinfo">
-					<a href="mailto:chrisbusse@gmail.com">chrisbusse@gmail.com</a> | <a href="http://twitter.com/busse">@busse</a> | <a href="http://linkedin.com/in/chrisbusse">LinkedIn</a><br/>
-				</p>
-				-->
-				<h2>.plan</h2>
-				<p>Rebuilding this site in Jekyll on GitHub Pages, to log research, etc.</p>
+	        
 
-				<h2>contact</h2>
-				<p>Please don't hesitate to get in touch via one of the methods in the menu above.</p>
-	        </div>
+	    
+	    <div class="row content0">
+	    	<div class="col-sm-offset-2 col-sm-8">
+	    		<p>I maintain this site as a notebook of thoughts that range from professional interests to serious hobbies. It serves as an easy place to reference things when discussing them with others, and I welcome discussion from anyone who might happen across it. Don't heistate to get in touch with me using one of the menu choices above if you'd like to chat.</p>
+	    	</div>
 	    </div>
 	    <div class="row content1">
-	        <div class="col-sm-offset-2 col-sm-4"></div>
-	        <div class="col-sm-4"></div>
+	        <div class="col-sm-offset-2 col-sm-4">
+	        	<h2>/posts</h2>
+	        	{% for post in site.posts %}
+				    <article class="post">
+
+				      <strong><span>{{ post.date | date_to_string }} </span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+				      <!--
+				      <div class="entry">
+				        {{ post.excerpt }}
+				      </div>
+
+				      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+				  		-->
+				    </article>
+				  {% endfor %}
+	        </div>
+	        <div class="col-sm-4">
+	        	<h2>/research</h2>
+	        	<a href="/research/bug-bounties.html">Bug Bounties</a>
+	        </div>
 	    </div>
 	    <div class="row content2">
-	        <div class="col-sm-offset-2 col-sm-4"></div>
-	        <div class="col-sm-4"></div>
+	        <div class="col-sm-offset-2 col-sm-4">
+	        	<!--<h2>/patterns</h2>-->
+	        </div>
+	        <div class="col-sm-4">
+	        	<!--<h2>/projects</h2>-->
+	        </div>
 	    </div>
 	    <div class="row content3">
 	        <div class="col-sm-offset-2 col-sm-4"></div>
@@ -72,11 +48,3 @@
 	    <div class="row footer">
 	        <div class="col-sm-offset-2 col-sm-8"></div>
 	    </div>
-	</div>
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body> 
-</html>
