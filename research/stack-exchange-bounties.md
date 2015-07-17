@@ -5,7 +5,7 @@ title: Stack Exchange Bounty Dynamics | Chris Busse
 
 As a part of my job, I'm the administrator for one of the rare instances of Stack Exchange behind a corporate firewall. This has given me an opportunity to study certain user behaviors on the platform, specifically what incents people to answer questions of their own volition - when the reward isn't tangible, and they are doing as part of their work.
 
-This links below are some things I've found online while researching the Bounty mechanism specifically. Internally, we've found that offering bounties from an "community pool" across the entire unanswered question "backlog" has been a great way to get people to participate and I'm curious how the bounty mechanisms are performing on public SE external sites (as well as other "[imaginary internet point](http://onlineslangdictionary.com/meaning-definition-of/imaginary-internet-point)"/[whuffie](https://en.wikipedia.org/wiki/Whuffie) awarding sites like reddit).
+This links below are some things I've found online while researching the Bounty mechanism specifically. Internally, we've found that offering bounties from a "community pool" across the entire unanswered question "backlog" has been a great way to get people to participate, and I'm curious how the bounty mechanisms are performing on public SE external sites (as well as other "[imaginary internet point](http://onlineslangdictionary.com/meaning-definition-of/imaginary-internet-point)"/[whuffie](https://en.wikipedia.org/wiki/Whuffie) awarding sites like reddit).
 
 ## Blogs Discussing:
 * [Duncan Lock, The Smart Guide to Stack Overflow: Zero to Hero](http://duncanlock.net/blog/2013/06/14/the-smart-guide-to-stack-overflow-zero-to-hero/)
