@@ -1,6 +1,6 @@
 ---
 layout: default_md
-title: Bug Bounties
+title: Bug Bounties | Chris Busse
 ---
 
 ## In-house Programs:
