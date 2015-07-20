@@ -1,5 +1,5 @@
 ---
-layout: default_md
+layout: default-md
 title: Stack Exchange Bounty Dynamics | Chris Busse
 ---
 
