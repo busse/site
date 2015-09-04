@@ -15,6 +15,7 @@ I tried to draw out a sample isometric topography of the concept, but that devol
 <img src="/images/pscm01.jpg" style="width:760px;">
 
 ## 01 App Audit (Google Spreadsheet)
+This is the first identified need / next step from the sketch, and will become the source for the Sankey/flow diagram.
 
 _Work in Progress:_
 
