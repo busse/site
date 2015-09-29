@@ -19,6 +19,8 @@ This is the first identified need / next step from the sketch, and will become t
 
 _Work in Progress:_
 
+<div class="alert alert-danger" role="alert">September 20, 2015: I got a new iPhone 6 and reloaded all my apps, so there may be an issue with this audit. I need to revisit, however it has given me the chance to rethink a few things such as using Trello, Siri, and IFTTT.</div>
+
 <iframe src="https://docs.google.com/spreadsheets/d/1ACs0F9GfBX-AHEBtStVIk3wAXv4jGFTiK62xF5eUM5U/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"  style="width:760px;height:400px;"></iframe>
 
 <hr>
