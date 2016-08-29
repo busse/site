@@ -1,0 +1,66 @@
+---
+layout: default
+title: Chris Busse
+---
+
+				
+	        
+
+	    
+	    <div class="row content0">
+	    	<div class="col-sm-offset-2 col-sm-8">
+	    		<p>I maintain this site as a notebook of thoughts that range from professional interests to serious hobbies. It serves as an easy place to reference things when discussing them with others, and I welcome discussion from anyone who might happen across it. Don't hesitate to get in touch with me using one of the menu choices above if you'd like to chat.</p>
+	    	</div>
+	    </div>
+	    <div class="row content1">
+	        <div class="col-sm-offset-2 col-sm-4">
+	        	<h2>/posts</h2>
+	        	{% for post in site.posts %}
+				    <article class="post">
+
+				      <strong><span>{{ post.date | date_to_string }} </span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+				      <!--
+				      <div class="entry">
+				        {{ post.excerpt }}
+				      </div>
+
+				      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+				  		-->
+				    </article>
+				  {% endfor %}
+	        <!--</div>-->
+	        <h2>/communities</h2>
+	        	{% for community in site.communities %}
+				    <article class="post">
+				      <strong>{{ community.title }}</strong>
+				    </article>
+				  {% endfor %}
+	        </div>
+	        <div class="col-sm-4">
+	        	<h2>/research</h2>
+	        	<h3>as recent as August 2015</h3>
+	        	<ul>
+	        	<li><a href="/research/personal-systems-complexity-model.html">Personal Systems Complexity Model</a>
+	        	</ul>
+	        	<h3>as recent as July 2015</h3>
+	        	<ul>
+	        	<li><a href="/research/stack-exchange-bounties.html">Stack Exchange Bounty Dymanics</a>
+	        	<li><a href="/research/bug-bounties.html">Bug Bounties</a>
+	        	</ul>
+	        </div>
+	    </div>
+	    <div class="row content2">
+	        <div class="col-sm-offset-2 col-sm-4">
+	        	<!--<h2>/patterns</h2>-->
+	        </div>
+	        <div class="col-sm-4">
+	        	<!--<h2>/projects</h2>-->
+	        </div>
+	    </div>
+	    <div class="row content3">
+	        <div class="col-sm-offset-2 col-sm-4"></div>
+	        <div class="col-sm-4"></div>
+	    </div>
+	    <div class="row footer">
+	        <div class="col-sm-offset-2 col-sm-8"></div>
+	    </div>

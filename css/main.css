@@ -51,12 +51,12 @@ p {
 }
 
 a:link, a:visited, a:hover, a:active {
-	color: #FFAE19;
+	color: #FF8800;
 	text-decoration: none;
 }
 
 .caret {
-	color: #FFAE19;
+	color: #FF8800;
 }
 
 .subinfo {
@@ -67,7 +67,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 a.subinfo:link, a.subinfo:visited, a.subinfo:hover, a.subinfo:active {
-	color: #FFAE19;
+	color: #FF8800;
 	text-decoration: none;
 }
 
