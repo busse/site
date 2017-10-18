@@ -26,6 +26,7 @@ h1 {
 	/*font-size: 1.5em;*/
 	font-size: 24px;
 	font-weight: bold;
+	margin-top: 0px;
 
 }
 
@@ -53,6 +54,10 @@ p {
 a:link, a:visited, a:hover, a:active {
 	color: #FF8800;
 	text-decoration: none;
+}
+
+article {
+	margin-bottom: 10px;
 }
 
 .caret {

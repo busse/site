@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>fullPage.js A simple Demo</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage very simple demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Open+Sans:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="/vendors/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#FFFFFF', '#FFFFFF', '#FFFFFF', '#FFFFFF', '#FFFFFF'],
+				anchors: ['cb', 'work', 'community', 'speaking', 'engage'],
+            	menu: '#menu'
+			});
+		});
+	</script>
+
+	<style>
+		.fp-tableCell {
+			vertical-align: top;
+		}
+			/* Backgrounds will cover all the section
+		* --------------------------------------- */
+		#section0,
+		#section1,
+		#section2,
+		#section3,
+		#section4{
+		    background-size: cover;
+		}
+
+		/* Defining each sectino background and styles 
+		* --------------------------------------- */
+		#section0{
+		    background-image: url(/images/s1-tree.png);
+		    padding: 0 0 0 0;
+		}
+		#section2{
+		    background-image: url(imgs/bg3.jpg);
+		    padding: 0 0 0 0;
+		}
+		#section3{
+		    background-image: url(imgs/bg4.jpg);
+		    padding: 0 0 0 0;
+		}
+		#section4{
+		    background-image: url(/images/s5-beach.png);
+		    padding: 0 0 0 0;
+		}
+
+		#section3 h1{
+		    color: #000;
+		}
+
+
+		/*Adding background for the slides
+		* --------------------------------------- */
+		#slide1{
+		    background-image: url(imgs/bg2.jpg);
+		    padding: 6% 0 0 0;
+		}
+		#slide2{
+		    background-image: url(imgs/bg5.jpg);
+		    padding: 6% 0 0 0;
+		}
+
+		/*CB specific
+		* --------------------------------------- */
+		.cb-head {
+			text-align: left;
+			padding: 6% 0 0 6%;
+
+			font-family: 'Open Sans', sans-serif;
+			/*font-size: 1.5em;*/
+			/*font-size: 24px;*/
+			font-weight: bold;
+
+		}
+		.cb-head h1 {
+			font-size: 3em;
+		}
+
+		.cb-main {
+			text-align: left;
+			padding: 6% 0 0 6%;
+
+			font-family: 'Rokkitt', serif;
+			/*font-size: 1.1em;*/
+			/*font-size: 18px;*/
+			font-size: 1.3em;
+		}
+	</style>
+
+</head>
+<body>
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#cb">[CB]</a></li>
+    <li data-menuanchor="secondPage"><a href="#work">work</a></li>
+    <li data-menuanchor="3rdPage"><a href="#community">community</a></li>
+    <li data-menuanchor="4thpage"><a href="#speaking">speaking</a></li>
+    <li data-menuanchor="4thpage"><a href="#engage">engage</a></li>
+</ul>
+<div id="fullpage">
+	<div class="section" id="section0">
+		<div class="cb-head">
+	    	<h1>Chris Busse</h1>
+	    </div>
+	    <div class="cb-main">
+	    	Strategist and Product Manager, <a href="#work">working</a> in the areas of, Digital Transformation, APIs & Software Platform Integrations, and... to bring innovation and change to organizations of all sizes<br />&nbsp;<br />
+			  I'm active in several facets of my professional <a href="#community">community</a>, and enjoy <a href="#speaking">speaking</a> to audiences big and small on the topics I'm passionate about.
+			  <br />&nbsp;<br />&nbsp;<br />
+			  antique balloon image<br />&nbsp;<br />&nbsp;<br />
+			  - CTA(1): _Get In Touch Today_<br />
+			  - CTA(2): Newsletter sign up<br />
+	    </div>
+
+	</div>
+	<div class="section" id="section1">
+	    <div class="cb-head">
+	    	<h1>Work</h1>
+	    </div>
+	    <div class="cb-main">
+		  - background: (white bg) along the top say something with post its / handwritten. Along the bottom, greyed out client logos<br />
+		  - “I have worked with many organizations, from local non-profits to Fortune 500 companies, to create strategies and implement the tactics needed to drive measurable outcomes aligned with their business goals”<br />
+		  - (put some more meat on this … two processes? the APIvista 9-box and the RoX marketing<br />
+		  - CTA: Work with me<br />
+	    </div>
+	</div>
+	<div class="section" id="section2">
+		<div class="cb-head">
+	    	<h1>Community</h1>
+	    </div>
+	    <div class="cb-main">
+		  - background: something natural, maybe a map … might be a chance to do an axonometric illustration (keep level of effort in check)<br />
+		  - “Community is important to me, both online & off<br />
+		  - tees up speaking and engage (more places to connect)<br />
+		  - Professional: API Craft Meetups (chart the growth? show fall series creative / CTA around speaking...) | RVA Startup Mentoring | Techstars<br />
+
+	    </div>
+
+	</div>
+	<div class="section" id="section3">
+		<div class="cb-head">
+	    	<h1>Speaking</h1>
+	    </div>
+	    <div class="cb-main">
+		  - background: me, speaking (duh) … maybe a photo montage or 4x4 photo set<br />
+		  - “I enjoy speaking to groups large and small about the topics I’m passionate about<br />
+		  - selected past speaking engagements<br />
+		  - (future speaking engagements)<br />
+		  - topics I can speak on<br />
+		  - CTA: Get in touch to discuss your needs…<br />
+		  - (right nav >> speaker bio & headshots?)<br />
+	    </div>
+
+	</div>
+	<div class="section" id="section4">
+		<div class="cb-head">
+	    	<h1>Engage</h1>
+	    </div>
+	    <div class="cb-main">
+		    - background: something fairly white, with a footer that grounds this as the bottom of the scroller - maybe a silhouette<br />
+		  - “Let’s connect on the platforms you use” | …<br />
+		  - Big link list of where to find me, get in touch, etc<br />
+		  - right arrow side nav to [BONUS] ::<br />
+	    </div>
+	</div>
+	<!--
+	<div class="section" id="section1">
+	    <div class="slide"><h1>work</h1></div>
+	    <div class="slide"><h1>Only text</h1></div>
+	    <div class="slide"><h1>And text</h1></div>
+	    <div class="slide"><h1>And more text</h1></div>
+	</div>
+	-->
+</div>
+
+</body>
+</html>

@@ -1,5 +1,8 @@
 collections:
-- communities
+  articles:
+    output: true
+    permalink: /posts/:path/
 
 gems:
   - jemoji
+

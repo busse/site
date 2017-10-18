@@ -1,0 +1,86 @@
+---
+layout: default-mod
+title: Chris Busse
+---
+
+<div class="row content1">
+	<div class="col-xs-12 col-md-2">
+	<img src="/images/busse-256px.jpg" width=100%>
+	</div>
+	<div class="col-xs-12 col-md-6">
+	<h1>Chris Busse</h1>
+	<p>Helping organizations deliver better software at <a href="http://apivista.com">APIvista</a>. Mentoring startups at <a href="http://www.lighthouselabsrva.com/">Lighthouse Labs</a>. <!-- Maker of <a href="/art">art</a>.--></p>
+	</div>
+	<div class="col-xs-12 col-md-4">
+		<p><a href="mailto:chrisbusse@gmail.com">chrisbusse@gmail.com</a></p>
+		<p><a href="https://twitter.com/busse">@busse on Twitter</a></p>
+		<p><a href="https://linkedin.com/in/chrisbusse">LinkedIn/chrisbusse</a></p>
+	</div>
+</div>
+
+<div class="row content1">
+	<div class="col-xs-12 col-md-8">
+		<h2><img src="/images/np/eggtimer-noun_1068771_cc-128.png" width=32>now</h2>
+		<p>Working on building our employer brand. Recruiting. Hunting for new clients. Looking for new office space to support our growth.</p>
+		<p>Talking to startups, helping them prove product/market fit and prepare to scale their business. Stressing the importance of validated learning.
+		
+	</div>
+	<div class="col-xs-12 col-md-4">
+	<h2><img src="/images/np/promos-noun_996422_cc-128.png" width=32>promos</h2>
+	<ul>
+		<li><a href="https://www.meetup.com/API-Craft-RVA/">API Craft RVA Meetup</a></li>
+		<li><a href="http://www.lighthouselabsrva.com/">Lighthouse Labs RVA</a></li>
+	</ul>
+	</div>
+</div>
+
+
+
+<div class="row content1">
+    <div class="col-xs-12 col-md-4">
+    	<h2><img src="/images/np/document-noun_1032412_cc-128.png" width=32>posts</h2>
+    	{% for post in site.articles %}
+		    <article class="post">
+
+		      {{ post.date | date_to_string }} </span><br /><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		      <!--
+		      <div class="entry">
+		        {{ post.excerpt }}
+		      </div>
+
+		      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+		  		-->
+		    </article>
+		  {% endfor %}
+
+    </div>
+    <div class="col-xs-12 col-md-4">
+    	<h2><img src="/images/np/decrypt-noun_996373_cc-128.png" width=32>research & projects</h2>
+		<p>These are a few things that I chip away on every now and then:</p>
+		<p>
+			<em>active</em>
+			<ul>
+			<li>frame - an API-first CLI digital image organizer
+			</ul>
+			<em>inactive</em>
+			<ul>
+			<li><a href="/research/bread.html">Bread - Reverse Engineering the Panera Bread App API</a></li>
+			<li><a href="/research/robinhood-brokerage-api-notes.html">Robinhood Unofficial API</a></li>
+			<!--
+			<li>Stack Exchange Bounty Dynamics</li>
+			<li>Bug Bounty Programs</li>
+			<li>Gig Ecomony & Side Hustles for Technologists</li>
+			-->
+		</ul>
+		</p>
+    </div>
+    <div class="col-xs-12 col-md-4">
+    	<h2><img src="/images/np/workplan-noun_996439_cc-128.png" width=32>patterns</h2>
+    	<p><strong>Coming soon:</strong> Documentation of reusable patterns from my work. Generally focused around organization and efficiency.</p>
+    </div>
+</div>
+
+
+<div class="row footer">
+    <div class="col-xs-12 col-md-12"></div>
+</div>
